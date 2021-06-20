@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - Belirli Grup">
+
+    <test name="Test - @glbtest">
+        
+        <groups>
+            <run>
+                <include name="glbtest"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.techproed.tests.GlbPantsTest"></class>
+            <class name="com.techproed.tests.GlbKitTest"></class>
+        </classes>
+
+    </test>
+
+</suite>

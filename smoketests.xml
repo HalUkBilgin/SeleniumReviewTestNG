@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - SmokeTests">
+
+    <test name="Test - SmokeTests">
+
+        <packages>
+
+            <package name="com.techproed.smoketests"></package>
+            <package name="com.techproed.excelautomation"></package>
+            <package name="com.techproed.tests"></package>
+
+        </packages>
+
+    </test>
+
+</suite>
